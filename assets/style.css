@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+}
+
+.navbar {
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-3 {
+    background-image: url('./images/trees.jpg');
+    background-size: 350%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 92vh;
+}
+
+.col-9 {
+    height: 92vh;
+    background-color: #FFF3E0;
+}
+
+#name{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30%;
+    margin-left: 3%
+
+}
+
+#prof{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 28%
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;    
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;    
+    text-shadow: 3px 2px black;
+}
+
+#psychic{
+    margin-top: 10%
+}
+
+#sub{
+    font-size: 12px;
+}
+
+#psychicContent{
+    float: right;
+}
+
+#crystalContent{
+    float: right;
+}
+
+#triviaContent{
+    float: right;
+}
+
+#gifContent{
+    float: right;
+}
+
+#trainContent{
+    float: right;
+}
+
+#brewContent{
+    float: right;
+}
+
+.bd-example {
+    height: auto;
+    width: 700px;
+    margin-top: 2%;
+    margin-left: 10%
+}
+
+#github {
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+
+#linked {
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+
+#me {
+background-image: url('./images/pic.png');
+float: left;
+height: 50%;
+margin-right: 5%;
+    
+}
+
+#port {
+    text-shadow: 3px 2px black;
+}

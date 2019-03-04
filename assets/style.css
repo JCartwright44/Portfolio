@@ -29,12 +29,20 @@ html, body{
 
 #prof{
     font-family: 'Roboto', sans-serif;
-    margin-left: 28%
+    margin-left: 18%
 }
 
 #title{
     font-family: 'Roboto', sans-serif;
-    margin-top: 5%
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+
+}
+
+#form {
+    padding-left: 5%;
+    padding-right: 15%;
 }
 
 p{
@@ -84,9 +92,9 @@ h5{
 
 .bd-example {
     height: auto;
-    width: 700px;
-    margin-top: 2%;
-    margin-left: 10%
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%
 }
 
 #github {
@@ -104,11 +112,30 @@ h5{
 #me {
 background-image: url('./images/pic.png');
 float: left;
-height: 50%;
+height: 30%;
 margin-right: 5%;
     
 }
 
-#port {
-    text-shadow: 3px 2px black;
+a {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: bold;
+    color: white;
 }
+
+#port {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: bold;
+}
+
+#link {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .col-3 {
+        display: none;
+    }
+  }
